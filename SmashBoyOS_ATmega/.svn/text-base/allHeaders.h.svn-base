@@ -1,0 +1,24 @@
+/* Name: 		allHeaders.h
+ * Author: 		Nicolas Inden (mailto:nico@smashnet.de)
+ * Date:		01.12.2010
+ * Copyright: 	2010 (c) Nicolas Inden
+ * License: 	GPL v3 (see gpl.txt)
+ */
+
+#ifndef _ALL_HEADERS_H
+#define _ALL_HEADERS_H
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+#include <inttypes.h>
+#include <avr/pgmspace.h>
+
+#include "defines.h"
+#include "ks0108.h"
+#include "small_font.h"
+#include "sb_logo.h"
+#include "interrupts.h"
+#include "main.h"
+
+#endif
