@@ -1,0 +1,381 @@
+TSmashBoyOS
+v7
+r0
+t314118554.787325
+cCheck dependencies
+cProcessInfoPlistFile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-gckexudcpiqcglbmvcyjpejpufiq/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch ___PROJECTNAMEASIDENTIFIER____Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch ___PROJECTNAMEASIDENTIFIER____Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/SDLMain.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/main.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/lcd.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/lcd.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/logo.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/logo.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/buttons.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/buttons.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/MacOS/SmashBoyOS normal x86_64
+cPBXCp build/Debug/SmashBoyOS.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+cTouch /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C8DDA4B00000000000000EE
+t1284364875
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
+c000000004ADD32BD0000000000000CA1
+t1256010429
+s3233
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers/SDL_endian.h
+c000000004ADD32BD00000000000016F1
+t1256010429
+s5873
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/param.h
+c000000004C4DE4B300000000000027BE
+t1280173235
+s10174
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+N/Library/Frameworks/SDL.framework
+c000000004ADD32BD00000000000000CC
+t1256010429
+s204
+
+N/Library/Frameworks/SDL.framework/SDL
+c000000004ADD32BD0000000000156068
+t1256010429
+s1400936
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/English.lproj/InfoPlist.strings
+c000000004ADD24F20000000000000284
+t1256006898
+s644
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/SDLMain.h
+c000000004D07706C0000000000000176
+t1292333164
+s374
+i<Cocoa/Cocoa.h>
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/SDLMain.m
+c000000004D07706C0000000000002C00
+t1292333164
+s11264
+i"SDL.h"
+i"SDLMain.h"
+i<sys/param.h>
+i<unistd.h>
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/___PROJECTNAMEASIDENTIFIER____Prefix.pch
+c000000004D07706C00000000000000AF
+t1292333164
+s175
+i"SDL.h"
+i<Cocoa/Cocoa.h>
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/allHeaders.h
+c000000004D08D7C3000000000000019C
+t1292425155
+s412
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i"SDL.h"
+i"SDL_endian.h"
+i"defines.h"
+i"lcd.h"
+i"buttons.h"
+i"small_font.h"
+i"logo.h"
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app
+t1292425754
+s102
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Frameworks/SDL.framework
+t1292424439
+s204
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Info.plist
+t1292424432
+s988
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/MacOS/SmashBoyOS
+t1292425754
+s34472
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/PkgInfo
+t1292424432
+s8
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1292424433
+s644
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/SDLMain.o
+t1292424438
+s42412
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/SmashBoyOS.LinkFileList
+c000000004D08D7F4000000000000027B
+t1292425204
+s635
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/buttons.o
+t1292425205
+s12908
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/lcd.o
+t1292425205
+s19528
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/logo.o
+t1292425205
+s6608
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/main.o
+t1292425754
+s7252
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/buttons.c
+c000000004D08D7E2000000000000025C
+t1292425186
+s604
+i"allHeaders.h"
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/buttons.h
+c000000004D08D7EF00000000000000CB
+t1292425199
+s203
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/defines.h
+c000000004D08D72A0000000000000156
+t1292425002
+s342
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/lcd.c
+c000000004D08D6870000000000001A1E
+t1292424839
+s6686
+i"allHeaders.h"
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/lcd.h
+c000000004D08D7260000000000000441
+t1292424998
+s1089
+i"allHeaders.h"
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/logo.c
+c000000004D08D6CE000000000000193C
+t1292424910
+s6460
+i"allHeaders.h"
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/logo.h
+c000000004D08D6E500000000000000BE
+t1292424933
+s190
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/main.c
+c000000004D08DA7C000000000000024B
+t1292425852
+s587
+i"allHeaders.h"
+
+N/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h
+c000000004D08D71E0000000000001397
+t1292424990
+s5015
+
+N/var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
+t1292424434
+s4315568
+
+N/var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-gckexudcpiqcglbmvcyjpejpufiq/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
+t1292424437
+s55020144
+
+NInfo.plist
+c000000004D07706C0000000000000419
+t1292333164
+s1049
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314118554#314118554#0(0"0(0#1#0"8609787008#0"0#
+
+CCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/SDLMain.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314117238.028686
+e314117238.526989
+r1
+xCompileC
+xbuild/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/SDLMain.o
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/SDLMain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/SDLMain.m314117238#314117238#0(0"0(0#0#60"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/SDLMain.m8612916864#1462"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/SmashBoyOS.hmap -F/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/include -I/Users/nico/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources/x86_64 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources -include /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-gckexudcpiqcglbmvcyjpejpufiq/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/SDLMain.m -o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/SDLMain.o0#
+
+CCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/buttons.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/buttons.c normal x86_64 c com.apple.compilers.gcc.4_2
+s314118005.038641
+e314118005.127028
+r1
+xCompileC
+xbuild/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/buttons.o
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/buttons.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h:40: warning: 'small_font' defined but not used
+lSLF07#2@68"Compile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/buttons.c314118005#314118005#0(111"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h:40: warning: 'small_font' defined but not used1(22@33"'small_font' defined but not used314118005#0#111#0(6@63"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h314117790#40#0#40#0#24"'*' defined but not used0(0#0#60"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/buttons.c8612044320#1452"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/SmashBoyOS.hmap -F/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/include -I/Users/nico/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources/x86_64 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources -include /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/buttons.c -o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/buttons.o0#
+
+CCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/lcd.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/lcd.c normal x86_64 c com.apple.compilers.gcc.4_2
+s314118004.865628
+e314118005.038527
+r1
+xCompileC
+xbuild/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/lcd.o
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/lcd.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h:40: warning: 'small_font' defined but not used
+lSLF07#2@64"Compile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/lcd.c314118004#314118005#0(111"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h:40: warning: 'small_font' defined but not used1(22@33"'small_font' defined but not used314118005#0#111#0(6@63"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h314117790#40#0#40#0#24"'*' defined but not used0(0#0#56"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/lcd.c8613253024#1444"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/SmashBoyOS.hmap -F/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/include -I/Users/nico/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources/x86_64 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources -include /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/lcd.c -o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/lcd.o0#
+
+CCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/logo.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/logo.c normal x86_64 c com.apple.compilers.gcc.4_2
+s314118004.956616
+e314118005.110525
+r1
+xCompileC
+xbuild/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/logo.o
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/logo.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h:40: warning: 'small_font' defined but not used
+lSLF07#2@65"Compile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/logo.c314118004#314118005#0(111"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h:40: warning: 'small_font' defined but not used1(22@33"'small_font' defined but not used314118005#0#111#0(6@63"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/small_font.h314117790#40#0#40#0#24"'*' defined but not used0(0#0#57"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/logo.c8601114720#1446"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/SmashBoyOS.hmap -F/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/include -I/Users/nico/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources/x86_64 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources -include /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/logo.c -o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/logo.o0#
+
+CCompileC build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/main.o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s314118554.687369
+e314118554.733438
+r1
+xCompileC
+xbuild/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/main.o
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/main.c314118554#314118554#0(0"0(0#0#57"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/main.c8609349248#1446"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/SmashBoyOS.hmap -F/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/include -I/Users/nico/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources/x86_64 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources -include /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch -c /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/main.c -o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/main.o0#
+
+CCopyStringsFile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s314117232.849057
+e314117233.949201
+r1
+xCopyStringsFile
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings314117232#314117233#0(0"0(0#0#82"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/English.lproj/InfoPlist.strings8615523744#393"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Resources/English.lproj0#
+
+CLd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/MacOS/SmashBoyOS normal x86_64
+s314118554.733549
+e314118554.784059
+r1
+xLd
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/MacOS/SmashBoyOS
+xnormal
+xx86_64
+lSLF07#2@108"Link /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/MacOS/SmashBoyOS314118554#314118554#0(0"0(0#0#0"8609018016#717"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/Objects-normal/x86_64/SmashBoyOS.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/MacOS/SmashBoyOS0#
+
+CPBXCp build/Debug/SmashBoyOS.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+s314117239.486006
+e314117239.756217
+r1
+xPBXCp
+xbuild/Debug/SmashBoyOS.app/Contents/Frameworks/SDL.framework
+x/Library/Frameworks/SDL.framework
+lSLF07#2@38"Copy /Library/Frameworks/SDL.framework314117239#314117239#0(0"0(0#0#33"/Library/Frameworks/SDL.framework8615287040#338"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Library/Frameworks/SDL.framework /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Info.plist Info.plist
+s314117232.822951
+e314117232.848927
+r1
+xProcessInfoPlistFile
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist314117232#314117232#0(0"0(0#0#61"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/Info.plist30399748463984736#344"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    builtin-infoPlistUtility Info.plist -genpkginfo /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch ___PROJECTNAMEASIDENTIFIER____Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s314117233.950997
+e314117234.532378
+r1
+xProcessPCH
+x/var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
+x___PROJECTNAMEASIDENTIFIER____Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Precompile ___PROJECTNAMEASIDENTIFIER____Prefix.pch314117233#314117234#0(0"0(0#0#91"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/___PROJECTNAMEASIDENTIFIER____Prefix.pch8612455488#1356"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/SmashBoyOS.hmap -F/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/include -I/Users/nico/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources/x86_64 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources -c /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/___PROJECTNAMEASIDENTIFIER____Prefix.pch -o /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-feagrhoplotzzseiyphlvjagbwlp/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch0#
+
+CProcessPCH /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-gckexudcpiqcglbmvcyjpejpufiq/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch ___PROJECTNAMEASIDENTIFIER____Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s314117233.949478
+e314117238.028441
+r1
+xProcessPCH
+x/var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-gckexudcpiqcglbmvcyjpejpufiq/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch
+x___PROJECTNAMEASIDENTIFIER____Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Precompile ___PROJECTNAMEASIDENTIFIER____Prefix.pch314117233#314117238#0(0"0(0#0#91"/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/___PROJECTNAMEASIDENTIFIER____Prefix.pch8615378080#1366"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/SmashBoyOS.hmap -F/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug -F/Users/nico/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/include -I/Users/nico/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources/x86_64 -I/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/SmashBoyOS.build/Debug/SmashBoyOS.build/DerivedSources -c /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/___PROJECTNAMEASIDENTIFIER____Prefix.pch -o /var/folders/47/471NBcsiEFSq4APQBd-UVU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/___PROJECTNAMEASIDENTIFIER____Prefix-gckexudcpiqcglbmvcyjpejpufiq/___PROJECTNAMEASIDENTIFIER____Prefix.pch.gch0#
+
+CTouch /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app
+s314118554.784253
+e314118554.787284
+r1
+xTouch
+x/Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app
+lSLF07#2@83"Touch /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app314118554#314118554#0(0"0(0#0#0"8610153920#158"    cd /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL    /usr/bin/touch -c /Users/nico/Dropbox/ATmega/Projekte/SmashBoyOS_SDL/build/Debug/SmashBoyOS.app0#
+

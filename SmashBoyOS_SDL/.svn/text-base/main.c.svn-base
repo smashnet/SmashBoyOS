@@ -1,0 +1,68 @@
+
+/* SmashBoyOS:  Simulates uC-Functions
+
+   Please see the SDL documentation for details on using the SDL API:
+   /Developer/Documentation/SDL/docs.html
+*/
+   
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+
+#include "SDL.h"
+#include "lcd.h"
+#include "logo.h"
+#include "small_font.h"
+
+void exitOnButton(){
+	SDL_Event event;
+	
+	int done = 0;
+	while ( !done ) {
+		
+		/* Check for events */
+		while ( SDL_PollEvent(&event) ) {
+			switch (event.type) {
+					
+				case SDL_MOUSEMOTION:
+					break;
+				case SDL_MOUSEBUTTONDOWN:
+					break;
+				case SDL_KEYDOWN:
+					/* Any keypress quits the app... */
+				case SDL_QUIT:
+					done = 1;
+					break;
+				default:
+					break;
+			}
+		}
+	}
+	
+	/* Clean up the SDL library */
+	SDL_Quit();
+}
+
+int main(int argc, char *argv[])
+{
+	lcd_init();
+	lcd_puts(small_font, "Testing fullscreen image");
+	sleep(1);
+	lcd_draw_fullscreen_bmp(img);	
+	sleep(2);
+	lcd_invert();
+	sleep(2);
+	lcd_clear();
+	lcd_set_cursor(0, 0);
+	lcd_puts(small_font, "Testing filled Rectangle");
+	sleep(1);
+	lcd_fill_rect(30, 30, 45, 20, 1);
+	sleep(2);
+	lcd_clear();
+	lcd_set_cursor(0, 0);
+	lcd_puts(small_font, "Testing empty Rectangle");
+	lcd_draw_rect(30, 30, 45, 20, 1);
+	exitOnButton();
+	return(0);
+}
