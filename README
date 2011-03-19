@@ -1,0 +1,16 @@
+SmashBoyOS
+----------
+
+1. Introduction
+
+	SmashBoyOS is a minimalistic operating system for my AtMega32 based handheld wich should provide 
+	basic functionalities to easily create games. A partlist and an EAGLE layout of the board will be 
+	uploaded soon.
+
+2. SmashBoyOS Simulation Framework for MacOS
+
+	The intention of this framework is to provide a possibility to fully simulate SmashBoyOS 
+	under MacOS, so that everyone can develop software for it. All functions implemented in the 
+	original SmashBoyOS are reproduced using the SDL library here.
+	
+Further information coming soon...
