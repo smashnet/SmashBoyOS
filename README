@@ -11,6 +11,11 @@ SmashBoyOS
 
 	The intention of this framework is to provide a possibility to fully simulate SmashBoyOS 
 	under MacOS, so that everyone can develop software for it. All functions implemented in the 
-	original SmashBoyOS are reproduced using the SDL library here.
+	original SmashBoyOS are reproduced using the SDL library here. So you can finally place the same 
+	source files in the /task/ folder as you use on the uC.
 	
 Further information coming soon...
+
+Thanks to:
+
+Andre Fabricius (master.andre@web.de) for the ks0108 display driver!
