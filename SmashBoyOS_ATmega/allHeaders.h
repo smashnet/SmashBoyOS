@@ -10,7 +10,7 @@
 #include "defines.h"
 #include "ks0108.h"
 #include "small_font.h"
-#include "sb_logo.h"
+#include "logo.h"
 #include "interrupts.h"
 #include "main.h"
 

@@ -17,7 +17,7 @@
 DEVICE     = atmega32
 CLOCK      = 16000000
 PROGRAMMER = -c jtag1 -P /dev/tty.usbserial
-OBJECTS    = main.o sb_logo.o ks0108.o interrupts.o myprog.o
+OBJECTS    = main.o logo.o ks0108.o interrupts.o myprog.o
 FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0x24:m
 # ATMega8 fuse bits (fuse bits for other devices are different!):
 # Example for 8 MHz internal oscillator

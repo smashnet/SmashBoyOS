@@ -11,9 +11,9 @@
 		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
 		002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */; };
 		002F3A3F09D088BA00EBEB88 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A3E09D088BA00EBEB88 /* main.c */; };
-		03187CAC12ABEEF6000EBC12 /* logo.c in Sources */ = {isa = PBXBuildFile; fileRef = 03187CAB12ABEEF6000EBC12 /* logo.c */; };
 		033B218B133516080092AB12 /* myprog.c in Sources */ = {isa = PBXBuildFile; fileRef = 033B2189133516070092AB12 /* myprog.c */; };
 		0397150C12A9933C0035C54F /* lcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 0397150B12A9933C0035C54F /* lcd.c */; };
+		03D2D6F5133668FB009C68E9 /* logo.c in Sources */ = {isa = PBXBuildFile; fileRef = 03D2D6F3133668FB009C68E9 /* logo.c */; };
 		03F3AECE12B90F1200CF80D6 /* buttons.c in Sources */ = {isa = PBXBuildFile; fileRef = 03F3AECD12B90F1200CF80D6 /* buttons.c */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -38,13 +38,13 @@
 		002F3A2B09D0888800EBEB88 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
 		002F3A2C09D0888800EBEB88 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = SOURCE_ROOT; };
 		002F3A3E09D088BA00EBEB88 /* main.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = SOURCE_ROOT; };
-		03187CAA12ABEEF6000EBC12 /* logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logo.h; sourceTree = "<group>"; };
-		03187CAB12ABEEF6000EBC12 /* logo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logo.c; sourceTree = "<group>"; };
 		0325E32E12AD1F5600885DFB /* small_font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = small_font.h; sourceTree = "<group>"; };
 		033B2189133516070092AB12 /* myprog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = myprog.c; sourceTree = "<group>"; };
 		033B218A133516070092AB12 /* myprog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myprog.h; sourceTree = "<group>"; };
 		0397150A12A9933C0035C54F /* lcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcd.h; sourceTree = "<group>"; };
 		0397150B12A9933C0035C54F /* lcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcd.c; sourceTree = "<group>"; };
+		03D2D6F3133668FB009C68E9 /* logo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logo.c; sourceTree = "<group>"; };
+		03D2D6F4133668FB009C68E9 /* logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logo.h; sourceTree = "<group>"; };
 		03F3AEC812B90CF800CF80D6 /* allHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allHeaders.h; sourceTree = "<group>"; };
 		03F3AEC912B90E6F00CF80D6 /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
 		03F3AECC12B90F1200CF80D6 /* buttons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buttons.h; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 				0397150B12A9933C0035C54F /* lcd.c */,
 				0325E32E12AD1F5600885DFB /* small_font.h */,
 				002F3A3E09D088BA00EBEB88 /* main.c */,
-				03187CAA12ABEEF6000EBC12 /* logo.h */,
-				03187CAB12ABEEF6000EBC12 /* logo.c */,
+				03D2D6F3133668FB009C68E9 /* logo.c */,
+				03D2D6F4133668FB009C68E9 /* logo.h */,
 				03F3AEC812B90CF800CF80D6 /* allHeaders.h */,
 				03F3AEC912B90E6F00CF80D6 /* defines.h */,
 				03F3AECC12B90F1200CF80D6 /* buttons.h */,
@@ -245,9 +245,9 @@
 				002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */,
 				002F3A3F09D088BA00EBEB88 /* main.c in Sources */,
 				0397150C12A9933C0035C54F /* lcd.c in Sources */,
-				03187CAC12ABEEF6000EBC12 /* logo.c in Sources */,
 				03F3AECE12B90F1200CF80D6 /* buttons.c in Sources */,
 				033B218B133516080092AB12 /* myprog.c in Sources */,
+				03D2D6F5133668FB009C68E9 /* logo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
