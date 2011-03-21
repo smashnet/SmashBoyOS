@@ -1,1 +1,4 @@
 .DS_Store
+SmashBoyOS_SDL/SmashBoyOS.xcodeproj/*.pbxuser
+SmashBoyOS_SDL/SmashBoyOS.xcodeproj/*.mode1v3
+SmashBoyOS_SDL/build/
